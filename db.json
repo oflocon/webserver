@@ -1,0 +1,728 @@
+{
+  "Sections": [
+    {
+      "pages": [
+        {
+          "questionGroups": [
+            {
+              "questions": [
+                {
+                  "controls": [
+                    {
+                      "attributes": {
+                        "variant": "BINARY",
+                        "templateType": "STATE",
+                        "maxPhotoCount": "5",
+                        "requirePhoto": true,
+                        "toggleSubQuestions": false,
+                        "requireComment": true,
+                        "mandatoryPhoto": false,
+                        "multiplePhoto": false,
+                        "mandatoryComment": false,
+                        "isVisible": true,
+                        "isMandatory": true,
+                        "photoCommentRequired": true,
+                        "photoCommentMandatory": false,
+                        "isPhotoCommentRequired": false,
+                        "isPhotoCommmentMandatory": false
+                      },
+                      "boundVariable": {
+                        "validators": [
+                          {
+                            "validatorType": "MANDATORY_VALIDATOR",
+                            "code": "",
+                            "message": "",
+                            "mandatory": true
+                          }
+                        ],
+                        "code": 4,
+                        "optionList": {
+                          "option_items": [
+                            {
+                              "key": "option1",
+                              "value": "option1"
+                            },
+                            {
+                              "key": "option2",
+                              "value": "option2"
+                            }
+                          ]
+                        }
+                      },
+                      "displayText": "This is Select One question with 2 options"
+                    }
+                  ],
+                  "parentgroupid": 0,
+                  "questionid": 1,
+                  "name": "This is Select One question with 2 options",
+                  "displayText": "hint"
+                },
+                {
+                  "controls": [
+                    {
+                      "attributes": {
+                        "variant": "SINGLE_LINE",
+                        "templateType": "QA",
+                        "requirePhoto": false,
+                        "toggleSubQuestions": false,
+                        "requireComment": true,
+                        "mandatoryPhoto": false,
+                        "multiplePhoto": false,
+                        "mandatoryComment": false,
+                        "isVisible": true,
+                        "isMandatory": false,
+                        "photoCommentRequired": false,
+                        "photoCommentMandatory": false,
+                        "isPhotoCommentRequired": false,
+                        "isPhotoCommmentMandatory": false
+                      },
+                      "boundVariable": {
+                        "validators": [
+                          {
+                            "validatorType": "MANDATORY_VALIDATOR",
+                            "code": "",
+                            "message": "",
+                            "mandatory": true
+                          },
+                          {
+                            "ValidatorType": "REGEX_VALIDATOR",
+                            "code": "",
+                            "message": "",
+                            "expression": "onetwo"
+                          }
+                        ],
+                        "code": 5,
+                        "optionList": {
+                          "option_items": []
+                        }
+                      },
+                      "displayText": "This is QA Single Line question "
+                    }
+                  ],
+                  "parentgroupid": 0,
+                  "questionid": 2,
+                  "name": "This is QA Single Line question ",
+                  "displayText": ""
+                },
+                {
+                  "controls": [
+                    {
+                      "attributes": {
+                        "variant": "DATE",
+                        "templateType": "DATE_TIME",
+                        "requirePhoto": false,
+                        "toggleSubQuestions": false,
+                        "requireComment": false,
+                        "mandatoryPhoto": false,
+                        "multiplePhoto": false,
+                        "mandatoryComment": false,
+                        "isVisible": true,
+                        "isMandatory": false,
+                        "photoCommentRequired": false,
+                        "photoCommentMandatory": false,
+                        "isPhotoCommentRequired": false,
+                        "isPhotoCommmentMandatory": false
+                      },
+                      "boundVariable": {
+                        "validators": [
+                          {
+                            "validatorType": "MANDATORY_VALIDATOR",
+                            "code": "",
+                            "message": "",
+                            "mandatory": true
+                          },
+                          {
+                            "ValidatorType": "VALUE_RANGE_VALIDATOR",
+                            "code": "Date",
+                            "message": "",
+                            "Min": "2018-03-31T18:30:00.000Z",
+                            "Max": "2018-04-22T18:30:00.000Z"
+                          }
+                        ],
+                        "code": 6,
+                        "optionList": {
+                          "option_items": []
+                        }
+                      },
+                      "displayText": "This is Date Time Question of Date variant"
+                    }
+                  ],
+                  "parentgroupid": 0,
+                  "questionid": 3,
+                  "name": "This is Date Time Question of Date variant",
+                  "displayText": ""
+                },
+                {
+                  "controls": [
+                    {
+                      "attributes": {
+                        "variant": "MULTI_LINE",
+                        "templateType": "QA",
+                        "requirePhoto": true,
+                        "toggleSubQuestions": false,
+                        "requireComment": true,
+                        "mandatoryPhoto": false,
+                        "multiplePhoto": false,
+                        "mandatoryComment": false,
+                        "isVisible": true,
+                        "isMandatory": false,
+                        "photoCommentRequired": false,
+                        "photoCommentMandatory": false,
+                        "isPhotoCommentRequired": false,
+                        "isPhotoCommmentMandatory": false
+                      },
+                      "boundVariable": {
+                        "validators": [
+                          {
+                            "validatorType": "MANDATORY_VALIDATOR",
+                            "code": "",
+                            "message": "",
+                            "mandatory": true
+                          },
+                          {
+                            "ValidatorType": "REGEX_VALIDATOR",
+                            "code": "",
+                            "message": ""
+                          }
+                        ],
+                        "code": 7,
+                        "optionList": {
+                          "option_items": []
+                        }
+                      },
+                      "displayText": "This is MultiLine question"
+                    }
+                  ],
+                  "parentgroupid": 0,
+                  "questionid": 4,
+                  "name": "This is MultiLine question",
+                  "displayText": ""
+                },
+                {
+                  "controls": [
+                    {
+                      "attributes": {
+                        "variant": "TIME",
+                        "templateType": "DATE_TIME",
+                        "requirePhoto": false,
+                        "toggleSubQuestions": false,
+                        "requireComment": true,
+                        "mandatoryPhoto": false,
+                        "multiplePhoto": false,
+                        "mandatoryComment": false,
+                        "isVisible": true,
+                        "isMandatory": false,
+                        "photoCommentRequired": false,
+                        "photoCommentMandatory": false,
+                        "isPhotoCommentRequired": false,
+                        "isPhotoCommmentMandatory": false
+                      },
+                      "boundVariable": {
+                        "validators": [
+                          {
+                            "validatorType": "MANDATORY_VALIDATOR",
+                            "code": "",
+                            "message": "",
+                            "mandatory": true
+                          },
+                          {
+                            "ValidatorType": "VALUE_RANGE_VALIDATOR",
+                            "code": "Time",
+                            "message": ""
+                          }
+                        ],
+                        "code": 8,
+                        "optionList": {
+                          "option_items": []
+                        }
+                      },
+                      "displayText": "This is TIme variant"
+                    }
+                  ],
+                  "parentgroupid": 0,
+                  "questionid": 5,
+                  "name": "This is TIme variant",
+                  "displayText": ""
+                },
+                {
+                  "controls": [
+                    {
+                      "attributes": {
+                        "variant": "DATE_TIME",
+                        "templateType": "DATE_TIME",
+                        "requirePhoto": false,
+                        "toggleSubQuestions": false,
+                        "requireComment": false,
+                        "mandatoryPhoto": false,
+                        "multiplePhoto": false,
+                        "mandatoryComment": false,
+                        "isVisible": true,
+                        "isMandatory": false,
+                        "photoCommentRequired": false,
+                        "photoCommentMandatory": false,
+                        "isPhotoCommentRequired": false,
+                        "isPhotoCommmentMandatory": false
+                      },
+                      "boundVariable": {
+                        "validators": [
+                          {
+                            "validatorType": "MANDATORY_VALIDATOR",
+                            "code": "",
+                            "message": "",
+                            "mandatory": true
+                          },
+                          {
+                            "ValidatorType": "VALUE_RANGE_VALIDATOR",
+                            "code": "DateTime",
+                            "message": ""
+                          }
+                        ],
+                        "code": 9,
+                        "optionList": {
+                          "option_items": []
+                        }
+                      },
+                      "displayText": "This is DateTime Variant"
+                    }
+                  ],
+                  "parentgroupid": 0,
+                  "questionid": 6,
+                  "name": "This is DateTime Variant",
+                  "displayText": ""
+                },
+                {
+                  "controls": [
+                    {
+                      "attributes": {
+                        "variant": "BINARY",
+                        "templateType": "STATE",
+                        "requirePhoto": false,
+                        "toggleSubQuestions": false,
+                        "requireComment": false,
+                        "mandatoryPhoto": false,
+                        "multiplePhoto": false,
+                        "mandatoryComment": false,
+                        "isVisible": true,
+                        "isMandatory": false,
+                        "photoCommentRequired": false,
+                        "photoCommentMandatory": false,
+                        "isPhotoCommentRequired": false,
+                        "isPhotoCommmentMandatory": false
+                      },
+                      "boundVariable": {
+                        "validators": [
+                          {
+                            "validatorType": "MANDATORY_VALIDATOR",
+                            "code": "",
+                            "message": "",
+                            "mandatory": true
+                          }
+                        ],
+                        "code": 10,
+                        "optionList": {
+                          "option_items": [
+                            {
+                              "key": "yes",
+                              "value": "yes"
+                            },
+                            {
+                              "key": "No",
+                              "value": "NO"
+                            }
+                          ]
+                        }
+                      },
+                      "displayText": "This is select One question"
+                    }
+                  ],
+                  "parentgroupid": 0,
+                  "questionid": 7,
+                  "name": "This is select One question",
+                  "displayText": ""
+                }
+              ],
+              "parentpageid": 0,
+              "questiongroupid": 1,
+              "name": "QG1",
+              "description": ""
+            }
+          ],
+          "parentsectionid": 0,
+          "name": "1",
+          "pageid": 1,
+          "description": "    "
+        },
+        {
+          "questionGroups": [
+            {
+              "questions": [
+                {
+                  "controls": [
+                    {
+                      "attributes": {
+                        "variant": "TERNARY",
+                        "templateType": "STATE",
+                        "requirePhoto": true,
+                        "toggleSubQuestions": false,
+                        "requireComment": true,
+                        "mandatoryPhoto": false,
+                        "multiplePhoto": false,
+                        "mandatoryComment": false,
+                        "isVisible": true,
+                        "isMandatory": false,
+                        "photoCommentRequired": false,
+                        "photoCommentMandatory": false,
+                        "isPhotoCommentRequired": false,
+                        "isPhotoCommmentMandatory": false
+                      },
+                      "boundVariable": {
+                        "validators": [
+                          {
+                            "validatorType": "MANDATORY_VALIDATOR",
+                            "code": "",
+                            "message": "",
+                            "mandatory": true
+                          }
+                        ],
+                        "code": 13,
+                        "optionList": {
+                          "option_items": [
+                            {
+                              "key": "one",
+                              "value": "two"
+                            },
+                            {
+                              "key": "two",
+                              "value": "two"
+                            },
+                            {
+                              "key": "three",
+                              "value": "three"
+                            }
+                          ]
+                        }
+                      },
+                      "displayText": "some random question"
+                    }
+                  ],
+                  "parentgroupid": 0,
+                  "questionid": 1,
+                  "name": "some random question",
+                  "displayText": ""
+                }
+              ],
+              "parentpageid": 1,
+              "questiongroupid": 1,
+              "name": "QG3",
+              "description": ""
+            }
+          ],
+          "parentsectionid": 0,
+          "name": "2",
+          "pageid": 2,
+          "description": "    "
+        }
+      ],
+      "id": 2,
+      "name": "SECTION - 1",
+      "description": ""
+    },
+    {
+      "pages": [
+        {
+          "questionGroups": [
+            {
+              "questions": [
+                {
+                  "controls": [
+                    {
+                      "attributes": {
+                        "variant": "TERNARY",
+                        "templateType": "STATE",
+                        "requirePhoto": false,
+                        "toggleSubQuestions": false,
+                        "requireComment": true,
+                        "mandatoryPhoto": false,
+                        "multiplePhoto": false,
+                        "mandatoryComment": false,
+                        "isVisible": true,
+                        "isMandatory": false,
+                        "photoCommentRequired": false,
+                        "photoCommentMandatory": false,
+                        "isPhotoCommentRequired": false,
+                        "isPhotoCommmentMandatory": false
+                      },
+                      "boundVariable": {
+                        "validators": [
+                          {
+                            "validatorType": "MANDATORY_VALIDATOR",
+                            "code": "",
+                            "message": "",
+                            "mandatory": true
+                          }
+                        ],
+                        "code": 6,
+                        "optionList": {
+                          "option_items": [
+                            {
+                              "key": "yes",
+                              "value": "yes"
+                            },
+                            {
+                              "key": "No",
+                              "value": "No"
+                            },
+                            {
+                              "key": "na",
+                              "value": "na"
+                            }
+                          ]
+                        }
+                      },
+                      "displayText": "1"
+                    }
+                  ],
+                  "parentgroupid": 0,
+                  "questionid": 1,
+                  "name": "1",
+                  "displayText": ""
+                },
+                {
+                  "controls": [
+                    {
+                      "attributes": {
+                        "variant": "DATE",
+                        "templateType": "DATE_TIME",
+                        "requirePhoto": true,
+                        "toggleSubQuestions": false,
+                        "requireComment": true,
+                        "mandatoryPhoto": false,
+                        "multiplePhoto": false,
+                        "mandatoryComment": false,
+                        "isVisible": true,
+                        "isMandatory": false,
+                        "photoCommentRequired": false,
+                        "photoCommentMandatory": false,
+                        "isPhotoCommentRequired": false,
+                        "isPhotoCommmentMandatory": false
+                      },
+                      "boundVariable": {
+                        "validators": [
+                          {
+                            "validatorType": "MANDATORY_VALIDATOR",
+                            "code": "",
+                            "message": "",
+                            "mandatory": true
+                          },
+                          {
+                            "ValidatorType": "VALUE_RANGE_VALIDATOR",
+                            "code": "Date",
+                            "message": ""
+                          }
+                        ],
+                        "code": 6,
+                        "optionList": {
+                          "option_items": []
+                        }
+                      },
+                      "displayText": "2"
+                    }
+                  ],
+                  "parentgroupid": 0,
+                  "questionid": 2,
+                  "name": "2",
+                  "displayText": ""
+                }
+              ],
+              "parentpageid": 0,
+              "questiongroupid": 1,
+              "name": "1",
+              "description": ""
+            },
+            {
+              "questions": [
+                {
+                  "controls": [
+                    {
+                      "attributes": {
+                        "variant": "MULTIPLE_CHOICE",
+                        "templateType": "MULTI_SELECT",
+                        "requirePhoto": false,
+                        "toggleSubQuestions": false,
+                        "requireComment": false,
+                        "mandatoryPhoto": false,
+                        "multiplePhoto": false,
+                        "mandatoryComment": false,
+                        "isVisible": true,
+                        "isMandatory": false,
+                        "photoCommentRequired": false,
+                        "photoCommentMandatory": false,
+                        "isPhotoCommentRequired": false,
+                        "isPhotoCommmentMandatory": false
+                      },
+                      "boundVariable": {
+                        "validators": [],
+                        "code": 14,
+                        "optionList": {
+                          "option_items": [
+                            {
+                              "key": "one",
+                              "value": "one"
+                            },
+                            {
+                              "key": "tow ",
+                              "value": "two"
+                            }
+                          ]
+                        }
+                      },
+                      "displayText": "some random question 2"
+                    }
+                  ],
+                  "parentgroupid": 1,
+                  "questionid": 1,
+                  "name": "some random question 2",
+                  "displayText": ""
+                }
+              ],
+              "parentpageid": 0,
+              "questiongroupid": 2,
+              "name": "2",
+              "description": ""
+            }
+          ],
+          "parentsectionid": 1,
+          "name": "1",
+          "pageid": 1,
+          "description": "    "
+        }
+      ],
+      "id": 3,
+      "name": "SECTION - 2",
+      "description": ""
+    },
+    {
+      "pages": [
+        {
+          "questionGroups": [
+            {
+              "questions": [
+                {
+                  "controls": [
+                    {
+                      "attributes": {
+                        "variant": "TERNARY",
+                        "templateType": "STATE",
+                        "requirePhoto": false,
+                        "toggleSubQuestions": false,
+                        "requireComment": true,
+                        "mandatoryPhoto": false,
+                        "multiplePhoto": false,
+                        "mandatoryComment": false,
+                        "isVisible": true,
+                        "isMandatory": false,
+                        "photoCommentRequired": false,
+                        "photoCommentMandatory": false,
+                        "isPhotoCommentRequired": false,
+                        "isPhotoCommmentMandatory": false
+                      },
+                      "boundVariable": {
+                        "validators": [
+                          {
+                            "validatorType": "MANDATORY_VALIDATOR",
+                            "code": "",
+                            "message": "",
+                            "mandatory": true
+                          }
+                        ],
+                        "code": 6,
+                        "optionList": {
+                          "option_items": [
+                            {
+                              "key": "yes",
+                              "value": "yes"
+                            },
+                            {
+                              "key": "No",
+                              "value": "No"
+                            },
+                            {
+                              "key": "na",
+                              "value": "na"
+                            }
+                          ]
+                        }
+                      },
+                      "displayText": "1"
+                    }
+                  ],
+                  "parentgroupid": 0,
+                  "questionid": 1,
+                  "name": "1",
+                  "displayText": ""
+                },
+                {
+                  "controls": [
+                    {
+                      "attributes": {
+                        "variant": "DATE",
+                        "templateType": "DATE_TIME",
+                        "requirePhoto": true,
+                        "toggleSubQuestions": false,
+                        "requireComment": true,
+                        "mandatoryPhoto": false,
+                        "multiplePhoto": false,
+                        "mandatoryComment": false,
+                        "isVisible": true,
+                        "isMandatory": false,
+                        "photoCommentRequired": false,
+                        "photoCommentMandatory": false,
+                        "isPhotoCommentRequired": false,
+                        "isPhotoCommmentMandatory": false
+                      },
+                      "boundVariable": {
+                        "validators": [
+                          {
+                            "validatorType": "MANDATORY_VALIDATOR",
+                            "code": "",
+                            "message": "",
+                            "mandatory": true
+                          },
+                          {
+                            "ValidatorType": "VALUE_RANGE_VALIDATOR",
+                            "code": "Date",
+                            "message": ""
+                          }
+                        ],
+                        "code": 6,
+                        "optionList": {
+                          "option_items": []
+                        }
+                      },
+                      "displayText": "2"
+                    }
+                  ],
+                  "parentgroupid": 0,
+                  "questionid": 2,
+                  "name": "2",
+                  "displayText": ""
+                }
+              ],
+              "parentpageid": 0,
+              "questiongroupid": 1,
+              "name": "1",
+              "description": ""
+            }
+          ],
+          "parentsectionid": 2,
+          "name": "1",
+          "pageid": 1,
+          "description": "    "
+        }
+      ],
+      "id": 2,
+      "name": "SECTION - 3",
+      "description": ""
+    }
+  ]
+}
